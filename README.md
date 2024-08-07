@@ -7,7 +7,8 @@
 
 ## Event statistics
 - Repo names are hardcoded at the beginning of the script
-- For each repo a list of last events (rolling window of either 7 days or 500 events) is fetched and average time between consecutive events is displayed in the chart 
+- For selected repo a list of last events (rolling window of either 7 days or 500 events) is fetched and average time between consecutive events is displayed in the chart
+- Keeping previously downloaded events to minimize requests to the GitHub API.
 
 ## TODO & Missing parts
 - Making an application
